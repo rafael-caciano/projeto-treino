@@ -1,0 +1,48 @@
+body {
+    background-color: aliceblue;
+}
+
+li.cx-e{
+    background-image: linear-gradient(to top, rgb(55, 36, 160), rgb(67, 41, 212));
+    color: #ffffff;
+    width: 35%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li.cx-d {
+  list-style: none;
+  background-color: white;
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+ 
+
+}
+
+div.cx-principal {
+  display: flex;
+  flex-direction: row;
+  
+}
+li{
+  list-style: none;
+}
+
+main{
+  margin: 100px auto;
+  padding: 10px;
+  width: 700px;
+  
+}
+h1.circulo {
+  background-image: linear-gradient(to bottom, rgb(67, 41, 212), rgb(39, 23, 128));
+  border-radius: 80px;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  font-size: 4em;
+  
+}
