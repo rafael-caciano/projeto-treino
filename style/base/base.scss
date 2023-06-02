@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:var(--font01)
+}
+
+html, body{
+    background-color: black;
+}
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+background-color:rgb(255, 255, 255)
+}
+p{
+    padding: 10px;
+}
+
+div#cxe{
+    
+    width: 230px;
+    height: 320px;
+    background-image: linear-gradient(to bottom,  hsl(272, 53%, 48%), hsl(250, 81%, 54%) );
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid black;
+    
+
+}
+
+div#cxd{
+    
+    width: 230px;
+    height: 320px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.109);
+}
+
+
+
+ul{
+    padding: 10px;
+    list-style: none;
+}
+
+#ce1{
+    font-size: 1em;
+    padding: 15px;
+    font-weight: bold;
+}
+#ce2{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px;
+    font-size: 4em;
+    box-shadow: 0px -2px rgba(255, 255, 255, 0.073);
+
+}
+#ce3{
+    font-size: 0.8em;
+    transform: translate(-2px, -40px);
+    
+}
+#ce33{
+    font-weight: bold;
+}
+#ce4{
+    font-size: .8em;
+}
+
+
+.cx-direita{
+    border-radius: 6px;
+    /*border: 1px solid black;*/
+    font-size: .8em;
+    margin: 8px;
+}
+
+#cd1{
+    background-color: white;
+    font-weight: bold;
+}
+
+#cd2{
+    background-color: rgb(239, 236, 236);
+    
+}
+#cd2::before{
+    content: url('../assets/images/icon-reaction.svg');
+}
+
+#cd3{
+    background-color: whitesmoke;
+}
+#cd3::before{
+    content: url('../assets/images/icon-memory.svg');
+}
+#cd4{
+    background-color: whitesmoke;
+}
+#cd4::before{
+    content: url('../assets/images/icon-verbal.svg');
+}
+#cd5{
+    background-color: rgb(239, 236, 236);
+}
+#cd5::before{
+    content: url('../assets/images/icon-visual.svg');
+}
+#cd6{
+    background-color:rgb(26, 11, 69);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+#cd6:hover{
+    background-image: linear-gradient(to top, hsl(249, 79%, 40%), hsl(272, 53%, 48%) 100% );
+}
+
+footer{
+    background-color: whitesmoke;
+}
